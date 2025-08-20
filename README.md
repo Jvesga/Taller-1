@@ -7,5 +7,10 @@ Taller-1
 
 4.	Un sistema de análisis matemático requiere clasificar valores según su posición respecto a cero en la recta numérica, determinando si es positivo, negativo o neutro.
 
+5.	Una empresa necesita generar facturas considerando:
+- Precio base del producto
+- Impuesto sobre Valor Agregado (IVA del 16%)
+- Descuento por volumen (15% si el total supera $500,000)
+
 
 
