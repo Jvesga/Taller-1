@@ -1,5 +1,8 @@
-#Sistema de analisis matematico#
-#Un sistema de análisis matemático requiere clasificar valores según su posición respecto a cero en la recta numérica, determinando si es positivo, negativo o neutro.# 
+#Sistema de analisis matematico
+#Un sistema de análisis matemático requiere clasificar 
+#valores según su posición respecto a cero en la recta numérica
+#determinando si es positivo
+#negativo o neutro.
 
 numero= int(input("Dijite el numero a comprobar: "))
 
@@ -12,7 +15,3 @@ elif(numero < 0):
 else:
     (numero == 0)
     print("El numero digitado es neutro y esta en la posicion " , numero , "de la recta numerica. ")
-    
-
-
-    
