@@ -11,5 +11,3 @@ kelvin= celcius + 273.15
 print("La temperatura digitada es de" , celcius , "°")
 print("la conversion de temperatura a escala Fahrenheit es: " , fahrenheit , "°F" )
 print("la conversion de temperatura a escala Kelvin es: " , kelvin , "°K" )
-
-
