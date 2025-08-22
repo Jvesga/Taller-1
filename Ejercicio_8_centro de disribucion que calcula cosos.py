@@ -1,4 +1,6 @@
-#centro de disribucion que calcula cosos de envio aplicando politicas de descuentos escalonados por volumen y promocion por metodo de pago.
+#centro de disribucion que calcula 
+#cosos de envio aplicando politicas de descuentos escalonados por 
+#volumen y promocion por metodo de pago.
 
 pesomercancias = int(input("Ingrese el peso de la mercancia en kg: "))
 Valormercancias = int(input("Ingrese el valor de la mercancia: "))
@@ -37,13 +39,11 @@ elif Valormercancias > 1000000:
 
 tarifaenviodescuento = tarifaenvio - descuentoenvio
 
-
 #Metodos de pago 
 
 if(metododepago == "tarjeta"):
     tarifaenviodescuento = 0
     print("No se cobra tarifa de envio")
-
 
 elif(metododepago == "efectivo"):
     if Valormercancias > 500000:
