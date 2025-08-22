@@ -1,11 +1,10 @@
-#7.	Sistema de procesamiento matemático para valores no negativos que valide y realice las siguientes operaciones:
-
+#Sistema de procesamiento matemático para valores no negativos que 
+#valide y realice las siguientes operaciones:
 #1.	Leer dos números enteros positivos únicamente
 #2.	Sumar los dos números leídos
-#3.	Restarle al primer número el segundo (siempre y cuando el primero sea mayor que él segundo, en caso contrario indicar con un mensaje que la operación no es posible realizarla y volver al menú principal,
-#4.	Multiplicar los dos números (siempre y cuando ninguno de los números sea igual a cero, en caso contrario indicar con un mensaje que la operación no es posible realizarla y volver al menú principal
+#3.	Restarle al primer número el segundo
+#4.	Multiplicar los dos números
 #5.	Dividir el primer número dado por el segundo
-
 
 print("Por favor solo dijite numeros positivos")
 numero1=int(input("Dijite el primero numero: "))
@@ -26,4 +25,3 @@ else:
 if(numero1 and numero2 != 0):
     multiplicar=(numero1*numero2)
     print("La multiplicacion de los numero dados es de: " , multiplicar)
-
